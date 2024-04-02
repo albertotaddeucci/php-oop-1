@@ -15,11 +15,11 @@ class Movie
      * __construct
      *
      * @param  string $_title
-     * @param  string $_director
+     * @param  mixed $_director
      * @param  array $_genres
      * @param  int $_runningTime
      */
-    function __construct($_title, $_director, $_runningTime, array $_genres)
+    function __construct($_title, Director $_director, $_runningTime, array $_genres)
     {
         $this->title = $_title;
         $this->director = $_director;

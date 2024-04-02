@@ -1,6 +1,8 @@
 <?php
 
 require './models/movie.php';
+require './models/director.php';
+
 require './database.php';
 
 
