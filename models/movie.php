@@ -4,6 +4,7 @@
 class Movie
 {
 
+    public $poster;
     public $title;
     public $director;
     public $genres;
