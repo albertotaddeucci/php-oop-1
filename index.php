@@ -27,9 +27,8 @@ require './database.php';
 
 <body class="my_bg_color">
 
+    <?php include './layout/nav.php' ?>
     <div class="container py-3">
-        <h1 class="text-center">Movies</h1>
-
         <?php include './layout/main.php' ?>
 
     </div>
