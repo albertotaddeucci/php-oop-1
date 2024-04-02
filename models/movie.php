@@ -34,6 +34,15 @@ class Movie
         $minutes = $this->runningTime % 60;
         return "$hours ore e $minutes minuti";
     }
+
+    public function getGenresFilm()
+    {
+        $allGenres = "";
+        foreach ($this->genres as $genre) {
+            $allGenres .= "$genre ";
+        }
+        return $allGenres;
+    }
 }
 
 
@@ -52,10 +61,3 @@ class Movie
 //         $this->name = $_name;
 //     }
 // }
-
-// $genres = [
-//     $genre1 = new Genre("Horror"),
-//     $genre2 = new Genre("Thriller"),
-//     $genre3 = new Genre("Animation"),
-//     $genre4 = new Genre("Drama"),
-// ];
