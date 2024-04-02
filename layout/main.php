@@ -10,14 +10,14 @@
                 <img src=' $movie->poster' class='object-fit-cover rounded-top-1 ' style='height: 25rem;' >
                 <div class='card-body text-center my_sec_color rounded-2'>
                     <h5 class='card-title'>$movie->title</h5>
-                <hr>
-
+                    
+                    <hr>
             
                     <h6 class='card-text'>" . $movie->director->getFullName() . "</h6>
-                    <p class='card-text'> $movie->language</p>
-                    <p class='card-text '> " . $movie->getGenresFilm() . "</p>
+                    <p class='card-text m-0'> $movie->language</p>
+                    <p class='card-text m-0 '> " . $movie->getGenresFilm() . "</p>
 
-                    <small class='card-text'>" . $movie->getMovieLength() . "</small>
+                    <p class='card-text text-end pt-4 my_small_text '>" . $movie->getMovieLength() . "</p>
                 </div>
             </div>
 
